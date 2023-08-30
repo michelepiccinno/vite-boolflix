@@ -1,7 +1,8 @@
 <script>
+import axios from "axios";
 import Hero from "./components/Hero.vue";
 import TheNavbar from "./components/TheNavbar.vue";
-import { store } from "../src/state";
+/*import { store } from "../src/state";*/
 import { onMounted } from "vue";
 
 export default {

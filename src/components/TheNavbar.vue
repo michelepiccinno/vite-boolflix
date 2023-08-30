@@ -1,21 +1,20 @@
 <script>
+import { state, fetchData } from "../state";
 export default {
   data() {
     return {
-      searchText: "",
+      state
     };
   },
   methods: {
-    OnEnter() {
-      this.$emit("search", this.searchText);
-    },
+   fetchData
   },
 };
 </script>
 
 <template>
   <div class="search-box bg-warning">
-    <input type="text" v-model="searchText" @keyup.enter="OnEnter" />
+    <input type="text" v-model="state.searchText" @keyup.enter="fetchData" />
   </div>
 </template>
 

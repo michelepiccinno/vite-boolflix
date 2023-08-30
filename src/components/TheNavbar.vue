@@ -6,7 +6,7 @@ export default {
     };
   },
   methods: {
-    onEnter() {
+    OnEnter() {
       this.$emit("search", this.searchText);
     },
   },
@@ -19,7 +19,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss">
 .search-box{
 /*  background-color: red;*/
   height: 50px;

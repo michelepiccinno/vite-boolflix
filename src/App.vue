@@ -5,7 +5,10 @@ import { store } from "../src/state";
 import { onMounted } from "vue";
 
 export default {
-  components: { Hero, TheNavbar },
+  components: { 
+    Hero, 
+    TheNavbar 
+  },
   data() {
     return {
       apiKey: "2eb9078bd67d9d05d1087874ecb09554",

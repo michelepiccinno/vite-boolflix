@@ -34,7 +34,7 @@ export default {
     <h1>SERIE TV</h1>
     <div class="row row-cols-5 g-5">
       <div v-for="singleSerieTv in state.serieTv" :key="singleSerieTv.id">
-        <div class="box col-1">
+        <div class="box col-1 bg-info">
           {{ singleSerieTv.name }}
         </div>
       </div>

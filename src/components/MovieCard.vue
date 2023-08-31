@@ -43,6 +43,9 @@ export default {
           <h5>Original Title: {{ singleSerieTv.original_name }}</h5>
           <i v-for="star in Math.ceil((singleSerieTv.vote_average) / 10 * 5)" :key="star" class="fa-solid fa-star fa-lg"></i>
         </div>
+        <div class="box">
+          LINGUA: <lang-flag :iso="singleSerieTv.original_language" />
+        </div>
       </div>
     </div>
   </div>

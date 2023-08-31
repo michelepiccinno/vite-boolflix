@@ -16,7 +16,7 @@ export default {
 
 
 <template>
-  <TheNavbar></TheNavbar>
+<TheNavbar></TheNavbar>
 <MovieCard></MovieCard>
 </template>
 
